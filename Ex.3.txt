@@ -1,0 +1,17 @@
+import 'dart:io';
+
+void main() {
+
+  print('Digite a primeira nota:');
+  var nota1 = double.parse(stdin.readLineSync()!);
+  
+  print('Digite a segunda nota:');
+  var nota2 = double.parse(stdin.readLineSync()!);
+  
+  print('Digite a terceira nota:');
+  var nota3 = double.parse(stdin.readLineSync()!);
+  
+  var media = (nota1 * 2 + nota2 * 3 + nota3 * 5) / 10;
+  
+  print('A média final do aluno é: $media');
+}
