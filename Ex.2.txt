@@ -1,0 +1,18 @@
+import 'dart:io';
+void main() {
+print('Digite o primeiro numero:');
+  var a = double.parse(stdin.readLineSync()!);
+  
+  print('Digite o segundo numero:');
+  var b = double.parse(stdin.readLineSync()!);
+  
+  print('Digite o terceiro numero:');
+  var c = double.parse(stdin.readLineSync()!);
+
+  var r = (a+b)*(a+b);
+   var s= (b+c)*(b+c);
+
+  var d= (r+s)/2;
+
+    print('Resultado: $d');
+}
