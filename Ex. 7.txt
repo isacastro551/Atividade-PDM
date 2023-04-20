@@ -1,5 +1,6 @@
 import 'dart:io';
 
+
 void main() {
   double custoFabrica, custoConsumidor;
   const double percentDistribuidor = 0.28;
