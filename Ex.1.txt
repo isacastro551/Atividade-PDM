@@ -1,5 +1,6 @@
 import 'dart:io';
 
+
 void main() {
   print('Digite um ponto:');
   int x1 = int.parse(stdin.readLineSync()!);
