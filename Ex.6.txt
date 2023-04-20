@@ -1,5 +1,6 @@
 import 'dart:io';
 
+
 void main() {
   
   print('Digite o tempo de duração do evento (segundos):');
