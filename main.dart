@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:isa/perguntas.dart';
 
 main (){
    runApp(ComponenteInicial());
@@ -31,23 +32,22 @@ Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
           appBar: AppBar(
-            title: Text("Meu Primeiro APP!"),
+            title: Text("Jogo de Perguntas"),
           ),
           body: Column(
             children: [
-              Text(perguntas[contador]),
-
+              Perguntas(perguntas[contador]),
               ElevatedButton(
                 onPressed: clicou,
-                child: Text("Enviar")),
+                child: Text("Vermelho")),
           
               ElevatedButton(
                 onPressed: clicou,
-                child: Text("Cancelar")),
+                child: Text("Azul")),
      
               ElevatedButton(
                 onPressed: clicou,
-                child: Text("Salvar")),           
+                child: Text("Rosa")),           
           ],
           )                       
           )
