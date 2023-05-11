@@ -1,21 +1,18 @@
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 class Perguntas extends StatelessWidget {
    
     String texto;
 
     Perguntas (this.texto);
+ 
+   const  clicou ({Key? key, required this.texto}) : super(key: key);
 
-  @override
-  Widget build (BuildContext context) {
-    return Container(
-      width: double.infinity,
-      margin: EdgeInsets.all(20),
-      child: Text(
-        texto,
-        style: TextStyle(fontSize: 27),
-        textAlign: TextAlign.center,
-      ),
+   @override
+   Widget build(BuildContext context) {
+    return ElevatedButton(
+      onPressed: () {},
+      child: Text(texto),
     );
-   }
+  }
 }
