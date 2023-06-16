@@ -1,5 +1,5 @@
 main (){
-   runApp(ComponenteInicial());
+runApp(ComponenteInicial());
 }
 
 class ComponenteInicial extends StatefulWidget{
