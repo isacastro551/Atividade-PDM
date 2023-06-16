@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:isa/perguntas.dart';
 
 main (){
-   runApp(ComponenteInicial());
+runApp(ComponenteInicial());
 }
 
 class ComponenteInicial extends StatefulWidget{
