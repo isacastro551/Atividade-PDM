@@ -15,4 +15,4 @@ class Perguntas extends StatelessWidget {
       child: Text(texto),
     );
   }
-}
+ }
